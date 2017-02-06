@@ -21,7 +21,6 @@ body{background:white;}
   padding-bottom: 15px;
 }
 
-/* webkit transition code from: w3schools.com*/
 a {
   color: #818080;
   text-decoration: none;
@@ -53,7 +52,7 @@ h1 {
 	font-weight:bold;
 }
 
-/*dates from: http://stackoverflow.com/questions/1944175/css-best-way-to-left-align-a-floatright-section */
+
 .dates {
   float:right;
   min-width:150px;
@@ -84,8 +83,6 @@ h1 {
 }
 
 
-
-/*Overlay codes from: w3schools.com*/
 
 .overlay {
     height: 0%;
@@ -137,6 +134,6 @@ h1 {
         right: 35px;
     }
 }
-/* ~~~~~~ */
+
 
 
