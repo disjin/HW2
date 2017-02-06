@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Dishuang Jin</title>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+	</head>
+
+	<body ondragstart="return false;">
+		<div id="header">
+			<img src="./pic/dishuang.jpg" alt="Dishuang"/>
+				<br><br>
+			<div class="nav">
+				<a href="http://s17-msci3300-5.azurewebsites.net/">home</a> <a href="/hw2/index.html">about</a> <a href="/hw2/resume.html">resume</a> <a><span onclick="openNav()">contact</span></a>
+			</div>	
+		</div>
+
+		<img src="./pic/hawaii.jpg" alt="Hawaii" height="150" style="position:absolute; top: 320px; left:150px; z-index:999"/>
+					
+		<img src="./pic/greece.jpg" alt="Greece" height="150" style="position:absolute; top: 480px; left:150px; z-index:999"/>
+		<div class="abtme">
+			<h4>Hello, I'm Dishuang and I'm from Hangzhou, China.</h4>
+			
+			I'm a senior majoring in Business Analytics &amp; Information Systems and I'm in the IS track.
+		    I have an elder brother. He graduated from the University of Denver last year and will pursue his master degree in Australia this fall.   
+		    I love travel and I prefer visiting different cities in a slow pace. 
+		</div>
+
+		<img src="./pics/footer.png" alt="footer" width="325" style="position:absolute; bottom: 30px; left: 40%; z-index: 999">	
+	
+		<!-- Overlay codes from: w3shools.com-->
+		<div id="myNav" class="overlay">
+  			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  			<div class="overlay-content">
+    			<a href="https://www.linkedin.com/in/natasha-liesmanto-1b5b09113" target="_blank">LinkedIn</a>
+    			<a href="https://twitter.com/ntshlie" target="_blank">Twitter</a>
+    			<a href="mailto:natasha-liesmanto@uiowa.edu">E-mail</a>
+  			</div>
+		</div>
+
+		<script>
+			function openNav() {
+    			document.getElementById("myNav").style.height = "100%";
+			}
+
+			function closeNav() {
+    			document.getElementById("myNav").style.height = "0%";
+			}
+		</script>
+		<!-- ~~~~~~ -->
+	</body>
+</html>

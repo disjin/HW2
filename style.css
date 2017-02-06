@@ -1,0 +1,142 @@
+body{background:white;}
+
+#main {
+  text-align: center;
+  background-color: #FFFFFF;
+  margin: 25px 250px;
+  border: 1px solid black;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+} 
+
+#header {
+  text-align: center;
+  background-color: #FFFFFF;
+  margin: 75px 350px;
+  border: 0px solid black;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
+/* webkit transition code from: w3schools.com*/
+a {
+  color: #818080;
+  text-decoration: none;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  cursor: help;
+}
+
+a:hover {
+  color: black;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+a:link{
+  padding-left: 10px;
+  padding-right: 15px;
+}
+
+h1 {
+  display: inline-block;
+}
+
+.left {
+  text-align: left;
+}
+
+.rsmtitle {
+	font-weight:bold;
+}
+
+/*dates from: http://stackoverflow.com/questions/1944175/css-best-way-to-left-align-a-floatright-section */
+.dates {
+  float:right;
+  min-width:150px;
+  max-width:200px;
+  padding-right: 15px;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.nav {
+    text-align: center;
+    padding-top: 15px;
+}
+
+
+.abtme {
+  float: left;
+  text-align: left;
+  background-color: #FFFFFF;
+  margin: 80px 350px;
+  border: 0px solid black;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
+
+
+/*Overlay codes from: w3schools.com*/
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed; 
+    z-index: 999;
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s; 
+}
+
+.overlay-content {
+    position: relative;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+/* ~~~~~~ */
+
+
