@@ -1,5 +1,5 @@
 <!-- http://www.thomashardy.me.uk/free-responsive-html-css3-cv-template -->
-html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video 
+body.resume,div,h1,h2,h3,h4,h5,h6,p,ul,li
 {
 border:0;
 font:inherit;
@@ -9,11 +9,13 @@ padding:0;
 vertical-align:baseline;
 }
 
-article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+section {
 display:block;
 }
 
-html, body {background: #181818; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #222;}
+body.resume-page {background: #181818; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #222222;}
+
+body.index-page {background:#FFFFFF;}
 
 .clear {clear: both;}
 
@@ -142,6 +144,73 @@ section:last-child {
 	padding-left: 0px;
 }
 
+#main {
+  text-align: center;
+  background-color: #FFFFFF;
+  margin: 25px 250px;
+  border: 1px solid black;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+} 
+
+#header {
+  text-align: center;
+  background-color: #FFFFFF;
+  margin: 75px 350px;
+  border: 0px solid black;
+}
+
+a {
+  color: #818080;
+}
+
+
+a:link{
+  padding-left: 10px;
+  padding-right: 15px;
+}
+
+
+.left {
+  text-align: left;
+}
+
+.abtme {
+  float: left;
+  text-align: left;
+  background-color: #FFFFFF;
+  margin: 80px 350px;
+  border: 0px solid black;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 13px 16px;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    background-color: #111;
+}
 
 @media all and (min-width: 602px) and (max-width: 800px) {
 	#headshot {
